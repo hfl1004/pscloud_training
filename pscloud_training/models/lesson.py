@@ -1,4 +1,5 @@
-import models
+from odoo import  fields, models
+
 class TrainingLesson(models.Model):
     _name = 'pscloud.training.lesson'
     _description = "课程信息"
