@@ -8,6 +8,7 @@
     'category': 'Tools',
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/training_views.xml',
     ],
     'qweb': [],
