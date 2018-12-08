@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="view_training_lesson_tree" model="ir.ui.view">
+            <field name="name">pscloud.training.lesson.tree</field>
+            <field name="model">pscloud.training.lesson</field>
+            <field name="arch" type="xml">
+                <tree string="课程列表">
+                    <field name="name"/>
+                    <field name="teacher_id"/>
+                    <field name="start_date"/>
+                    <field name="end_date"/>
+                    <field name="continue_days"/>
+                    <field name="seat_qty"/>
+                    <field name="subject_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_training_lesson" model="ir.actions.act_window">
+            <field name="name">课程</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pscloud.training.lesson</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_training_lesson_tree"/>
+            <field name="view_mode">tree,form,calendar,graph,pivot</field>
+        </record>
+
+    </data>
+</odoo>

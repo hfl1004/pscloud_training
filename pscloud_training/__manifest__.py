@@ -10,6 +10,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/training_views.xml',
+        'views/training_lesson_views.xml',
     ],
     'qweb': [],
     'js': [],
