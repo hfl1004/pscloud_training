@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <odoo>
     <data>
-
+        #action="action_training_lesson"
         <menuitem id="training_menu_root" name="培训管理" sequence="0"/>
-        <menuitem id="lesson_menu" parent="training_menu_root" action="pscloud.training.lesson" sequence="10"/>
+        <menuitem id="lesson_menu" parent="training_menu_root"  sequence="10"/>
 
     </data>
 </odoo>
