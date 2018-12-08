@@ -1,3 +1,4 @@
+import models
 class TrainingLesson(models.Model):
     _name = 'pscloud.training.lesson'
     _description = "课程信息"
