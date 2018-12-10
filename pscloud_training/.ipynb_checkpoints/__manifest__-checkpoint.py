@@ -16,6 +16,6 @@
     'qweb': [],
     'js': [],
     'css': [],
-    'auto_install': false,
- #   'application': True,
+    'auto_install': False,
+    'application': True,
 }
