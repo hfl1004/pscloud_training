@@ -45,8 +45,8 @@
                 <tree string="课程列表">
                     <field name="name"/>
                     <field name="teacher_id"/>
-                    <field name="start_date"/>
-                    <field name="end_date"/>
+<!--                     <field name="start_date"/>
+                    <field name="end_date"/> -->
                     <field name="continue_days"/>
                     <field name="seat_qty"/>
                     <field name="subject_id"/>
