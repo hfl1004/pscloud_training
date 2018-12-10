@@ -8,7 +8,7 @@ class TrainingSubject(models.Model):
 
     name = fields.Char(string='名称')
     person_id = fields.Many2one('res.partner', string='负责人')
-    lesson_ids=field.Char( string='课程' )
+    lesson_ids=fields.Char( string='课程' )
   #  lesson_ids = fields.One2many('pscloud.training.lesson', 'subject_id', string='课程')
     desc = fields.Text(string='描述')
 
