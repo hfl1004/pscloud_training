@@ -9,7 +9,6 @@
                 <tree string="科目列表">
                     <field name="name"/>
                     <field name="person_id"/>
-                    <field name="lesson_ids"/>  
                     <field name="desc"/>
                 </tree>
             </field>
