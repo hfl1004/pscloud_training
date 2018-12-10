@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <id="view_training_lesson_calendar" record model="ir.ui.view" >
+<!--         <id="view_training_lesson_calendar" record model="ir.ui.view" >
             <field name="model">pscloud.training.lesson</field>
             <field name="priority" eval="2"/>
             <field name="arch" type="xml">
@@ -35,11 +35,12 @@
                     <field name="seat_qty" type="measure"/>
                 </pivot>
             </field>
-        </record>
+        </record> -->
 
         <record id="view_training_lesson_tree" model="ir.ui.view">
             <field name="name">pscloud.training.lesson.tree</field>
             <field name="model">pscloud.training.lesson</field>
+            <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="课程列表">
                     <field name="name"/>
@@ -53,7 +54,7 @@
             </field>
         </record>
 
-        <record id="view_training_lesson_form" model="ir.ui.view">
+<!--         <record id="view_training_lesson_form" model="ir.ui.view">
             <field name="name">pscloud.training.lesson.form</field>
             <field name="model">pscloud.training.lesson</field>
             <field name="arch" type="xml">
@@ -91,12 +92,12 @@
 
             </field>
         </record>
-
+ -->
         <record id="action_training_lesson" model="ir.actions.act_window">
             <field name="name">课程</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">pscloud.training.lesson</field>
-            <field name="view_type">form</field>
+            <field name="view_type">tree</field>
             <field name="view_id" ref="view_training_lesson_tree"/>
             <field name="view_mode">tree,form,calendar,graph,pivot</field>
         </record>

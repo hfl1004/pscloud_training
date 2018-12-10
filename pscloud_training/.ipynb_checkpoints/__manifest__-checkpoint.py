@@ -11,7 +11,7 @@
         'security/ir.model.access.csv',
       #  'views/res_partner_views.xml',
         'views/training_subject.xml',
-      #  'views/training_lesson_views.xml',
+        'views/training_lesson.xml',
         'views/training_views.xml',
         
     ],
