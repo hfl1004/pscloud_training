@@ -11,10 +11,11 @@
         'security/ir.model.access.csv',
         'views/training_lesson_views.xml',
         'views/training_views.xml',
+        
     ],
     'qweb': [],
     'js': [],
     'css': [],
     'auto_install': false,
-    'application': True,
+ #   'application': True,
 }
