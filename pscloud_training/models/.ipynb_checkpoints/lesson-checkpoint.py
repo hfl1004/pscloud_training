@@ -18,7 +18,7 @@ class TrainingLesson(models.Model):
                 end_date = datetime.datetime.strptime(lesson.end_date, DATE_FORMAT) if type('') == type(lesson.end_date) else lesson.end_date
                 lesson.continue_days = (end_date - start_date).days
 
-    name = fields.Char(string='Name')
+    name = fields.Char(string='课程名称')
     teacher_id = fields.Many2one('res.partner', string='老师', domain=[('is_teacher', '=', True)])
     student_ids = fields.Many2many('res.partner', string='学生', domain=[('is_student', '=', True)], readonly=True)
     start_date = fields.Date(string='开始时间')
