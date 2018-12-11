@@ -1,9 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <odoo>
     <data>
-
+<!--
         <record id="view_training_lesson_calendar" model="ir.ui.view" >
             <field name="model">pscloud.training.lesson</field>
+            <field name="type"> calendar </field>
             <field name="priority" eval="2"/>
             <field name="arch" type="xml">
                 <calendar string="课程日期" date_start="start_date" date_stop="end_date" Scolor="teacher_id">
@@ -14,7 +15,7 @@
             </field>
         </record>
 
-<!--         <id="view_training_lesson_graph" record model="ir.ui.view" >
+         <id="view_training_lesson_graph" record model="ir.ui.view" >
             <field name="name"> pscloud.training.lesson.grapbh </field>
             <field name="model">pscloud.training.lesson</field>
             <field name="type"> grapbh </field>
@@ -100,7 +101,7 @@
             <field name="view_type">form</field>
             <field name="view_id" ref="view_training_lesson_tree"/>
 <!--             <field name="view_mode">tree,form,calendar,graph,pivot</field> -->
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,calendar</field>
         </record>
 
     </data>
