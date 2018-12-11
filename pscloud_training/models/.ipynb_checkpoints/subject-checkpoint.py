@@ -3,7 +3,7 @@
 from odoo import fields, models
 
 class TrainingSubject(models.Model):
-    _name = 'pscloud.training.subject'
+    _name = 'pscloud1.training.subject'
     _description = "科目"
 
     name = fields.Char(string='名称')
