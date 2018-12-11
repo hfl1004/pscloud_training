@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-<!--         <record id="view_training_lesson_calendar" model="ir.ui.view" >
+        <record id="view_training_lesson_calendar" model="ir.ui.view" >
             <field name="model">pscloud.training.lesson</field>
             <field name="priority" eval="2"/>
             <field name="arch" type="xml">
@@ -14,7 +14,7 @@
             </field>
         </record>
 
-        <id="view_training_lesson_graph" record model="ir.ui.view" >
+<!--         <id="view_training_lesson_graph" record model="ir.ui.view" >
             <field name="name"> pscloud.training.lesson.grapbh </field>
             <field name="model">pscloud.training.lesson</field>
             <field name="type"> grapbh </field>
