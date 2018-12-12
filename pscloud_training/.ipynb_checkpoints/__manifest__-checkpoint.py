@@ -9,7 +9,7 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-      #  'views/res_partner_views.xml',
+        'views/res_partner.xml',
         'views/training_subject.xml',
         'views/training_lesson.xml',
         'views/training_views.xml',
