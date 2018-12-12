@@ -55,7 +55,7 @@
             </field>
         </record>
 
-<!--         <record id="view_training_lesson_form" model="ir.ui.view">
+        <record id="view_training_lesson_form" model="ir.ui.view">
             <field name="name">pscloud.training.lesson.form</field>
             <field name="model">pscloud.training.lesson</field>
             <field name="arch" type="xml">
@@ -93,7 +93,7 @@
 
             </field>
         </record>
- -->
+
         <record id="action_training_lesson" model="ir.actions.act_window">
             <field name="name">课程</field>
             <field name="type">ir.actions.act_window</field>
